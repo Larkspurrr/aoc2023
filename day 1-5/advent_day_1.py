@@ -13,7 +13,7 @@ final_num = 0
 second_final_num = 0
 
 def part1(iteration, final_num):
-	with open("advent1list.txt", "r") as advent_list:
+	with open("day1list.txt", "r") as advent_list:
 		for line in advent_list:
 			addends[f"iteration{iteration}"] = ""
 			for char in line:
@@ -36,7 +36,7 @@ part1(iteration, final_num)
 
 
 def part2(second_iteration, second_final_num):
-	with open("advent1list.txt", "r") as advent_list:
+	with open("day1list.txt", "r") as advent_list:
 		for line in advent_list:
 			second_addends[f"it{second_iteration}"] = ""
 			test_str = ""
